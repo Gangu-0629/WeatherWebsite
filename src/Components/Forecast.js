@@ -15,7 +15,7 @@ export default function Forecast() {
     const [city, setCity] = useState(location.state.city);
     const latitude = location.state.latitude;
     const longitude = location.state.longitude;
-    const geo = location.state.usinggeo;
+    const geo = location.state.usingeo;
     const [daystemp, setDaystemp] = useState(new Map());
     const [dateTime, setDateTime] = useState("");
     const [today, setToday] = useState("");

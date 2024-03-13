@@ -30,7 +30,7 @@ function App() {
         <div className="cont">
           <input type="text" placeholder="Enter the city Name" value={city} onChange={(e) => { setCity(e.target.value) }} />
           <button className="button-86" onClick={() => {
-            navigate("/forecast", { state: { city, usingeo: true } });
+            navigate("/forecast", { state: { city, usingeo: false } });
           }} >Forecast</button>
           <button className="button-86 custombutton" onClick={detectlocation} >Detect Location</button>
         </div>
